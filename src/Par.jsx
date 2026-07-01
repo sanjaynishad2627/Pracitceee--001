@@ -122,7 +122,6 @@
     import React, { useEffect, useState } from 'react'
     
     const Par = () => {
-
         const[state,setState] = useState([])
         useEffect(()=>{
           const apicall = async()=>{
@@ -142,19 +141,4 @@
       )
     }
     
-    export default Par
-
-
-
-
-  import React from 'react'
-  
-  const Par = () => {
-    return (
-      <div>
-        heloo
-      </div>
-    )
-  }
-  
-  export default Par   
+    export default Par;
